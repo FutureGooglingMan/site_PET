@@ -1,0 +1,168 @@
+body {
+    background-color: #2E4053;
+    color: #e7e7e7;
+    font-family: "Lucida Console", monospace;
+    text-align: justify;
+    margin: auto;
+}
+
+header {
+    text-align: center;
+    background-color: #D3B43E;
+    padding: 1px;
+}
+
+#titulo_pagina {
+    font-weight: 50;
+    color: #ffffff;
+    margin-bottom: 2px;
+}
+
+#middle {
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+#sobre_evento {
+    display: none;
+}
+
+#cronograma {
+    display: none;
+    /*display: flex;
+    flex-direction: row;
+    justify-content: center;*/
+}
+
+#bloco_dia_um {
+    text-align: center;
+    width: 500px;
+}
+
+#bloco_dia_dois {
+    text-align: center;
+    width: 500px;
+}
+
+#bloco_dia_tres {
+    text-align: center;
+    width: 500px;
+}
+
+#faq {
+    display: none;
+    background-color: #415a75;
+    padding: 10px;
+}
+
+h3 {
+    text-align: center;
+}
+
+#formulario_inscricao {
+    display: none;
+}
+
+#formulario_inscricao h1{
+    margin: 20px 40px 20px 0px;
+    padding-top: 60px; 
+}
+
+input[type=text], input[type=number] {
+    border-radius: 4px 4px 4px 4px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    width: 578px;
+    margin-bottom: 5px;
+    outline: none;
+}
+
+footer {
+    text-align: center;
+    background-color: #2E4053;
+    width: 100%;
+}
+
+#barra {
+    background-color: #D4E9F0;
+    justify-content: center;
+    flex-direction: column;
+    display: none;
+}
+
+#barra button {
+    font-family: "Lucida Console", monospace;
+    font-weight: 50;
+    font-size: 20px;
+}
+
+.botoes {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 10px;
+    transition: background-color .5s;
+}
+
+.botoes:hover {
+    background-color: #fff;
+}
+
+.btn_submit {
+    display: flex;
+    justify-content: center;
+    border: 1px;
+}
+
+#wrapper_btn_fechar_secao div{
+    width: 31px;
+    height: 40px;
+    float: right;
+}
+
+#wrapper_btn_fechar_secao h1{
+    width: 947px;
+}
+
+.btn_fechar {
+    font-size: 25px;
+    height: 40px;
+    border-radius: 3px 3px 3px 3px;
+    color: #fff;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    transition: background-color .5s, color .5s;
+}
+
+.btn_fechar:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+#botao_barra {
+    color:#ffffff;
+    font-size: 20px;
+    padding: 3px 5px 5px 5px;
+    border-radius: 3px 3px 0px 0px;
+    transition: background-color .5s, color .5s;
+}
+
+#botao_barra:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+#petcomp {
+    background-color: #440623;
+    padding: 5px;
+}
+
+#contatos {
+    background-color: black;
+    padding: 5px;
+}
