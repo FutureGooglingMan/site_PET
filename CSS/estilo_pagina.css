@@ -33,9 +33,6 @@ h1 {
 
 #cronograma {
     display: none;
-    /*display: flex;
-    flex-direction: row;
-    justify-content: center;*/
 }
 
 #bloco_dia_um {
@@ -116,16 +113,6 @@ footer {
     display: flex;
     justify-content: center;
     border: 1px;
-}
-
-#wrapper_btn_fechar_secao div{
-    width: 31px;
-    height: 40px;
-    float: right;
-}
-
-#wrapper_btn_fechar_secao h1{
-    width: 947px;
 }
 
 .btn_fechar {
